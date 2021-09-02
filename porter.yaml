@@ -1,7 +1,3 @@
-# This is the configuration for Porter
-# You must define steps for each action, but the rest is optional
-# See https://porter.sh/author-bundles for documentation on how to configure your bundle
-# Uncomment out the sections below to take full advantage of what Porter can do!
 
 name: porter-hello
 version: 0.1.0
@@ -19,7 +15,7 @@ mixins:
 
 install:
   - az: # logging in
-      description: "Logging into Azure..."  
+      description: "Logging into Azure..."
       arguments:
         - login
       suppress-output: true
